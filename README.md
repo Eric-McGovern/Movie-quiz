@@ -8,8 +8,6 @@ The quiz is also responsive so it can be played on desktop and mobile.
 
 ## Instructions Page
 
-![Responsive image](Assets/Images/Instructions-Image.jpg)
-
 - These instructions will tell the user in what way to answer the questions.
 - They will let the user know that the score will increase by one if an answer is correct.
 - They will also let the user know that if an answer is incorrect the score will stay the same.
@@ -18,8 +16,6 @@ The quiz is also responsive so it can be played on desktop and mobile.
 
 ## The Quiz
 
-![Responsive image](Assets/Images/Quiz-Image.jpg)
-
 - When the user answers a question a correct/incorrect message will pop up depending on the answer.
 - The Answered counter will increase by 1.
 - The Score counter will increase by 1 if the answer is correct.
@@ -27,8 +23,6 @@ The quiz is also responsive so it can be played on desktop and mobile.
 
 
 ## End Message 
-
-![Responsive image](Assets/Images/EndResult-Image.jpg)
 
 - When the quiz is completed a message will appear that:
 - Congratules the user for finishing.
@@ -40,15 +34,11 @@ The quiz is also responsive so it can be played on desktop and mobile.
 
 ## Testing
 
-![Responsive image](Assets/Images/lighthouse-test.jpg)
-
 - I tested this page on lighthouse and scored 100 on performance, accessibility and best practices.
 - I can confirm that this page passes the css validator.
 - I can confirm that this page passes the html validator.
 
 ## Bugs
-
-![Responsive image](Assets/Images/JSLint-image.jpg)
 
 - I recieved these warnings on JSLint when testing, I was unsure how to fix them.
 
