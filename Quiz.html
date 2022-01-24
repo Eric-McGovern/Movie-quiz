@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+<body>
+
+    <div id='main-body'>
+
+    <header>
+        <!--Title -->
+        <h1 id='title'>Movie Quiz</h1>
+    </header>
+        <!--Back Button-->
+        <a href='index.html' id='back'>back</a>
+
+        <!--Question 1-->
+        <div id='question1'>
+            <h1 class='main-h1'>Question 1</h1>
+            <p class='main-p'>Who plays Rambo?</p>
+            <label for=q1option1>Arnold Schwarzenegger</label>
+            <input type='checkbox' id='q1option1' class='wrong'>
+            <br>
+            <label for=q1option2>Sylvester Stallone</label>
+            <input type='checkbox' id='q1option2' class='correct'>
+            <br>
+            <label for=q1option3>Bruce Willis</label>
+            <input type='checkbox' id='q1option3' class='wrong'>
+        </div>
+
+        <!--Question 2-->
+        <div id='question2'>
+            <h1 class='main-h1'>Question 2</h1>
+            <p class='main-p'>Who voiced Shrek?</p>
+            <label for=q2option1>Eddie Murphy</label>
+            <input type='checkbox' id='q2option1' class='wrong'>
+            <br>
+            <label for=q2option2>Mike Myres</label>
+            <input type='checkbox' id='q2option2' class='correct'>
+            <br>
+            <label for=q2option3>Billy Connolly</label>
+            <input type='checkbox' id='q2option3' class='wrong'>
+        </div>
+
+        <!--Question 3-->
+        <div id='question3'>
+            <h1 class='main-h1'>Question 3</h1>
+            <p class='main-p'>Who directed Jurrasic Park?</p>
+            <label for=q3option1>Steven Spielberg</label>
+            <input type='checkbox' id='q3option1' class='correct'>
+            <br>
+            <label for=q3option2>James Cameron</label>
+            <input type='checkbox' id='q3option2' class='wrong'>
+            <br>
+            <label for='q3option3'>Michael Bay</label>
+            <input type='checkbox' id='q3option3' class='wrong'>
+        </div>
+
+        <!--Question 4-->
+        <div id='question4'>
+            <h1 class='main-h1'>Question 4</h1>
+            <p class='main-p'>What year was the movie Avatar released?</p>
+            <label for=q4option1>2005</label>
+            <input type='checkbox' id='q4option1' class='wrong'>
+            <br>
+            <label for=q4option2>2011</label>
+            <input type='checkbox' id='q4option2' class='wrong'>
+            <br>
+            <label for='q4option3'>2009</label>
+            <input type='checkbox' id='q4option3' class='correct'>
+        </div>
+
+        <!--Question 5-->
+        <div id='question5'> 
+            <h1 class='main-h1'>Question 5</h1>
+            <p class='main-p'>Who is Darth Vader's son in Star Wars?</p>
+            <label for=q5option1>Luke Skywalker</label>
+            <input type='checkbox' id='q5option1' class='correct'>
+             <br>
+            <label for=q5option2>Obi-Wan Kenobi</label>
+            <input type='checkbox' id='q5option2' class='wrong'>
+            <br>
+            <label for='q5option3'>Jar Jar Binks</label>
+            <input type='checkbox' id='q5option3' class='wrong'>
+        </div>
+
+        <!--Question 6-->
+       <div id='question6'>
+        <h1 class='main-h1'>Question 6</h1>
+          <p class='main-p'>Who was the villian in Toy Story 3?</p>
+          <label for=q6option1>Mrs. Potato Head</label>
+          <input type='checkbox' id='q6option1' class='wrong'>
+          <br>
+          <label for=q6option2>Lots-o'-Huggin' Bear</label>
+          <input type='checkbox' id='q6option2' class='correct'>
+          <br>
+          <label for='q6option3'>Gabby Gabby</label>
+          <input type='checkbox' id='q6option3' class='wrong'>
+        </div>
+    </div>
+    
+    <footer>  <!--Score Counter-->
+        <div id='score-container'>Score: <span id='score'>0</span>/6</div>
+    
+        <!--Answered Counter-->
+        <div id='answered-container'>Answered: <span id='answered'>0</span>/6</div>
+    
+        <!--Correct Message-->
+        <div id='correct-message'></div>
+    
+        <!--incorrect nessage-->
+        <div id='incorrect-message'></div>
+    </footer>
+  
+
+    <!--end message-->
+    <div id='end-message'>
+        <h1>Congrats you finished the quiz!</h1>
+        <p>You scored <span id='end-score'></span> out of 6.</p>
+        <a id='end-button' href='Quiz.html'>Start Again</a>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+
+</html>
