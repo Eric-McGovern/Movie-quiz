@@ -3,7 +3,6 @@
 This is a quiz that users can use to test their general knowledge on some well known movies.
 There are 6 questions in the quiz that are labelled numerically and should be answered one after the other, starting on question 1.
 The quiz is also responsive so it can be played on desktop and mobile.
-![Responsive image](Assets/Images/Responsive-quiz.jpg)
 
 
 ## Instructions Page
